@@ -48,7 +48,7 @@
         }
     ],
 
-    "productType": [
+    "productTypes": [
         {
             "id": 1,
             "type": "chewy"
@@ -64,7 +64,7 @@
         
     ],
 
-    "location": [
+    "locations": [
         {
             "id": 1,
             "address": "6 River Road",
