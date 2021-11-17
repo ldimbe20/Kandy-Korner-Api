@@ -27,7 +27,7 @@
     "products": [
         {
             "id": 1,
-            "name": "skittles",
+            "name": "Double Chew",
             "price":  1.00,
             "productTypeId": 1
 
@@ -41,25 +41,48 @@
         },
         {
             "id": 3,
-            "name": "jawbreaker",
+            "name": "Jawbreaker",
+            "price":  1.25,
+            "productTypeId": 3
+
+        },
+
+        {
+            "id": 4,
+            "name": "Zebra Gum",
+            "price":  1.00,
+            "productTypeId": 1
+
+        },
+        {
+            "id": 5,
+            "name": "Snickers",
+            "price":  1.50,
+            "productTypeId": 2
+
+        },
+        {
+            "id": 6,
+            "name": "Lollipop",
             "price":  1.25,
             "productTypeId": 3
 
         }
+
     ],
 
     "productTypes": [
         {
             "id": 1,
-            "type": "chewy"
+            "type": "Gum"
         },
         {
             "id": 2,
-            "type": "chocolate"
+            "type": "Chocolate"
         },
         {
             "id": 3,
-            "type": "Hard"
+            "type": "Hard Candy"
         }
         
     ],
