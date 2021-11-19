@@ -1,169 +1,172 @@
 {
-    "customers": [
-        {
-            "id": 1,
-            "name": "Dion Stoade",
-            "email": "ldimbe20@gmail.com",
-            "birthday": "9/12/1990"
-        },
-      
-        {
-            "id": 2,
-            "name": "sammy Stoade",
-            "email": "lauren@gmail.com",
-            "birthday": "10/12/1990"
-        },
-      
-        {
-            "id": 3,
-            "name": "Leon Leo",
-            "email": "ldimbe20@gmail.com",
-            "birthday": "9/15/1990"
-        }
-      
-        
-    ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Dion Stoade",
+      "email": "ldimbe20@gmail.com",
+      "birthday": "9/12/1990"
+    },
+    {
+      "id": 2,
+      "name": "sammy Stoade",
+      "email": "lauren@gmail.com",
+      "birthday": "10/12/1990"
+    },
+    {
+      "id": 3,
+      "name": "Leon Leo",
+      "email": "ldimbe20@gmail.com",
+      "birthday": "9/15/1990"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Double Chew",
+      "price": 1,
+      "productTypeId": 1
+    },
+    {
+      "id": 2,
+      "name": "Hersheys",
+      "price": 1.5,
+      "productTypeId": 2
+    },
+    {
+      "id": 3,
+      "name": "Jawbreaker",
+      "price": 1.25,
+      "productTypeId": 3
+    },
+    {
+      "id": 4,
+      "name": "Zebra Gum",
+      "price": 1,
+      "productTypeId": 1
+    },
+    {
+      "id": 5,
+      "name": "Snickers",
+      "price": 1.5,
+      "productTypeId": 2
+    },
+    {
+      "id": 6,
+      "name": "Lollipop",
+      "price": 1.25,
+      "productTypeId": 3
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Gum"
+    },
+    {
+      "id": 2,
+      "type": "Chocolate"
+    },
+    {
+      "id": 3,
+      "type": "Hard Candy"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "6 River Road",
+      "squareFeet": "1000",
+      "accessibility": true
+    },
+    {
+      "id": 2,
+      "address": "HollyWood Road",
+      "squareFeet": "1,500",
+      "accessibility": true
+    },
+    {
+      "id": 3,
+      "address": "Colchester Drive",
+      "squareFeet": "1,500",
+      "accessibility": true
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Leo Micus",
+      "locationId": 3,
+      "manager": "true",
+      "fullTime": "true",
+      "hourlyRate": "25"
 
-    "products": [
-        {
-            "id": 1,
-            "name": "Double Chew",
-            "price":  1.00,
-            "productTypeId": 1
+    },
+    {
+      "id": 2,
+      "name": "Amy Winfree",
+      "locationId": 2,
+      "manager": "true",
+      "fullTime": "true",
+      "hourlyRate": "25"
 
-        },
-        {
-            "id": 2,
-            "name": "Hersheys",
-            "price":  1.50,
-            "productTypeId": 2
+    },
+    {
+      "id": 3,
+      "name": "Sierra Siena",
+      "locationId": 1,
+      "manager": "false",
+      "fullTime": "false",
+      "hourlyRate": "25"
 
-        },
-        {
-            "id": 3,
-            "name": "Jawbreaker",
-            "price":  1.25,
-            "productTypeId": 3
+    }
+    
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "employeeId": 1,
+      "customerId": 1,
+      "productLocationId": 1,
+      "timeStampe": 5.55,
+      "quantity": 20
+     
 
-        },
-
-        {
-            "id": 4,
-            "name": "Zebra Gum",
-            "price":  1.00,
-            "productTypeId": 1
-
-        },
-        {
-            "id": 5,
-            "name": "Snickers",
-            "price":  1.50,
-            "productTypeId": 2
-
-        },
-        {
-            "id": 6,
-            "name": "Lollipop",
-            "price":  1.25,
-            "productTypeId": 3
-
-        }
-
-    ],
-
-    "productTypes": [
-        {
-            "id": 1,
-            "type": "Gum"
-        },
-        {
-            "id": 2,
-            "type": "Chocolate"
-        },
-        {
-            "id": 3,
-            "type": "Hard Candy"
-        }
-        
-    ],
-
-    "locations": [
-        {
-            "id": 1,
-            "address": "6 River Road",
-            "squareFeet": "1000",
-            "accessibility": true
-
-        },
-        {
-            "id": 2,
-            "address": "HollyWood Road",
-            "squareFeet": "1,500",
-            "accessibility": true
-
-        },
-        {
-            "id": 3,
-            "address": "Colchester Drive",
-            "squareFeet": "1,500",
-            "accessibility": true
-
-        }
-   
-    ],
-
-    "employees": [
-        {
-            "id": 1,
-            "name": "Leo Micus"
-
-        },
-        {
-            "id": 2,
-            "name": "Amy Winfree"
-
-        },
-
-        {
-            "id": 3,
-            "name": "Sierra Siena"
-
-        }
-       
-   
-    ],
-
-    "purchases": [
-        {
-            "id": 1,
-            "employeeId": 1,
-            "customerId": 1,
-            "productLocationId": 1,
-            "timeStampe": 5.55
-
-        },
-       
-        {
-            "id": 2,
-            "employeeId": 2,
-            "customerId": 2,
-            "productLocationId": 2,
-            "timeStampe": 5.55
-
-        },
-       
-        {
-            "id": 3,
-            "employeeId": 3,
-            "customerId": 3,
-            "productLocationId": 3,
-            "timeStampe": 5.55
-
-        }
-       
-       
-   
-    ]
-  
-   
+    },
+    {
+      "id": 2,
+      "employeeId": 2,
+      "customerId": 2,
+      "productLocationId": 2,
+      "timeStampe": 5.55,
+      "quantity": 20
+    },
+    {
+      "id": 3,
+      "employeeId": 3,
+      "customerId": 3,
+      "productLocationId": 3,
+      "timeStampe": 5.55,
+      "quantity": 20
+    }
+  ],
+  "productLocations": [
+    {
+      "id": 1,
+      "locationId": 1,
+      "productId": 1,
+      "quantity": 25
+    },
+    {
+      "id": 2,
+      "locationId": 2,
+      "productId": 2,
+      "quantity": 35
+    },
+    {
+      "id": 3,
+      "locationId": 3,
+      "productId": 3,
+      "quantity": 15
+    }
+  ]
 }
